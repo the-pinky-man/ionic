@@ -339,7 +339,7 @@ For more information see the [List Header usage](https://ionicframework.com/docs
   **After**
 
   ```html
-  <ion-menu content-id="main"></ion-menu>
+  <ion-menu contentId="main"></ion-menu>
   <ion-content id="main">...</ion-content>
   ```
 - The presentation type in `ios` now defaults to `"overlay"`.
@@ -562,7 +562,7 @@ The `width` property has been removed in favor of using CSS styling.
   **After**
 
   ```html
-  <ion-split-pane content-id="main">
+  <ion-split-pane contentId="main">
     ...
     <div id="main">...</div>
   </ion-split-pane>
